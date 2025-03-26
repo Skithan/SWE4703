@@ -1,0 +1,55 @@
+.homepage-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.homepage-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #2c3e50; 
+  margin-bottom: 20px;
+}
+
+.fade-in {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  opacity: 0;
+  animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.homepage-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.homepage-card p {
+  font-size: 1em;
+  color: #34495e; 
+  line-height: 1.6;
+}
+
+.explore-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #2980b9; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #1f6391; 
+}

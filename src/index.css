@@ -1,0 +1,35 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;700&display=swap');
+
+:root {
+  --color-primary: #023047; /* primary colour */
+  --color-secondary: #0f172a; /* Secondary (hover colour) */
+  --color-accent: #00c2cb; /* Accent colour */
+
+  --color-danger: #e53e3e; /* Error colour */
+  --color-success: #38a169; /* success colour */
+
+  --color-light: #f7fafc;
+  --color-dark: #1a202c;
+  --color-white: #ffffff;
+  --font-sans: 'Inter', 'sans-serif';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.transition-ease {
+  @apply transition-all duration-300 ease-in-out;
+}

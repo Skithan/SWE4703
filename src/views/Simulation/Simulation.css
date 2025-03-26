@@ -1,0 +1,154 @@
+.contracts-page {
+  margin: 20px;
+  text-align: center;
+}
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center;     /* Center the image vertically */
+  height: 100vh;           /* Ensure the container takes full viewport height */
+  margin:'25px auto'
+}
+
+.status-text {
+  position: absolute;
+  top: 50%; /* Position at the center vertically */
+  left: 50%; /* Position at the center horizontally */
+  transform: translate(-50%, -50%); /* Adjust to truly center */
+  font-size: 12px;
+  font-weight: bold;
+  color: white; /* Text color for visibility */
+  pointer-events: none; /* Prevent interactions with the text */
+}
+
+.battery-container {
+
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 500px; 
+  height: 300px; 
+  margin: auto;
+  background: url('/images/Ethans-Battery.png') no-repeat center center;
+  background-size: 500px; 
+  background-position: center;
+}
+
+.status {
+  position: center; 
+  justify-content: center; 
+  align-items: center;
+  width: 400px; 
+  height: 200px; 
+}
+
+.content {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.pretty-text {
+  font-family: 'sans-serif'; 
+  font-size: 24px; 
+  font-weight: 600; 
+  color: #000000;
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  letter-spacing: 1px;
+  line-height: 1.5; 
+  text-transform: capitalize; 
+  transition: color 0.3s ease, text-shadow 0.3s ease; 
+}
+
+.pretty-text:hover {
+  color: #000000;
+  text-shadow: 2px 2px 6px rgba(89, 255, 0, 0.553);
+  
+}
+
+.pretty-text-big {
+  font-family: 'sans-serif'; 
+  font-size: 36px; 
+  font-weight: 600; 
+  color: #000000;
+  text-shadow: 2px 2px 4px rgb(255, 255, 255); 
+  letter-spacing: 1px;
+  line-height: 1.5; 
+  text-transform: capitalize; 
+  transition: color 0.3s ease, text-shadow 0.3s ease; 
+}
+
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #ffffff;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.date {
+  font-family: 'comicsans'; 
+  font-size: 48px; 
+  font-weight: 600; 
+  color: #000000;
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  letter-spacing: 1px;
+  line-height: 1.5; 
+  text-transform: capitalize; 
+  transition: color 0.3s ease, text-shadow 0.3s ease; 
+}
+
+
+.confirm-selection {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.confirm-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #2980b9;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.confirm-button:hover {
+  background-color: #1f6391;
+}
